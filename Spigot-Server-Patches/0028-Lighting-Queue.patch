@@ -49,7 +49,7 @@ index 1c0108ef1..b80f95159 100644
      private boolean m;
      public final Map<BlockPosition, TileEntity> tileEntities;
      public final List<Entity>[] entitySlices; // Spigot
-+    final PaperLightingQueue.LightingQueue lightingQueue = new PaperLightingQueue.LightingQueue(this); // Paper
++    public PaperLightingQueue.LightingQueue lightingQueue = new PaperLightingQueue.LightingQueue(this); // Paper
      private boolean done;
      private boolean lit;
      private boolean r;
